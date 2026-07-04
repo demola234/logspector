@@ -1,0 +1,4 @@
+# melos_managed_dependency_overrides: logspector
+dependency_overrides:
+  logspector:
+    path: ../packages/logspector

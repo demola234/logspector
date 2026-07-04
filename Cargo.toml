@@ -1,0 +1,19 @@
+[workspace]
+resolver = "2"
+members = [
+    "crates/engine",
+    "crates/analytics",
+    "crates/collectors",
+    "crates/exporters",
+    "crates/ffi",
+    "crates/event_bus",
+    "crates/models",
+    "crates/ring_buffer",
+    "crates/platform",
+    "crates/utils",
+    "cli",
+]
+
+[workspace.package]
+version = "0.1.0"
+edition = "2024"

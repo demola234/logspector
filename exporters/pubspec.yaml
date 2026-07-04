@@ -1,0 +1,14 @@
+name: logspector_exporters
+description: Exporter implementations (JSON, OTLP, Console, File, Remote API, SQLite) for logspector.
+version: 0.1.0
+publish_to: none
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  logspector:
+    path: ../packages/logspector
+
+dev_dependencies:
+  test: ^1.24.0

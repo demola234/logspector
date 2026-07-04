@@ -1,0 +1,6 @@
+[package]
+name = "event_bus"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]

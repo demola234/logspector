@@ -1,0 +1,6 @@
+# melos_managed_dependency_overrides: logspector,logspector_overlay
+dependency_overrides:
+  logspector:
+    path: ../../packages/logspector
+  logspector_overlay:
+    path: ../../overlay

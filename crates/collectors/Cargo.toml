@@ -1,0 +1,6 @@
+[package]
+name = "collectors"
+version.workspace = true
+edition.workspace = true
+
+[dependencies]
